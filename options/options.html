@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compound Interest Calculator Options</title>
+    <link rel="stylesheet" href="options.css" />
+    <style>
+      /* Add your CSS styles here */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="particles-js"></div>
+      <div class="count-particles">
+      <!-- <span class="js-count-particles">--</span> particles -->
+    </div>
+    <h1>Compound Interest Calculator Options</h1>
+    <form id="options-form">
+      <label for="interest-rate">Interest Rate:</label>
+      <input type="number" id="interest-rate" step="0.01" min="0" max="1" placeholder="0.08" required/>
+      <br />
+      <label for="time-periods">Time Periods (comma-separated):</label>
+      <input type="text" id="time-periods" placeholder="5,10,20,30" required/>
+      <br />
+      <label for="currency">Currency:</label>
+      <select id="currency">
+        <option value="USD">USD - United States Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="GBP">GBP - British Pound Sterling</option>
+        <option value="AUD">AUD - Australian Dollar</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="CNY">CNY - Chinese Yuan</option>
+        <option value="SEK">SEK - Swedish Krona</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+      </select>
+      <br />
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  <script src="options.js"></script>
+  <script src="particles.js"></script>
+  <script src="background.js"></script>
+  </body>
+</html>

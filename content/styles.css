@@ -1,0 +1,12 @@
+.usd-value-popup {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
